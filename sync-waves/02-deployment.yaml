@@ -6,7 +6,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "1"    # ← deployed THIRD (after ConfigMap)
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: argocd-demo
